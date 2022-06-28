@@ -17,7 +17,7 @@ const path = require('path');
 // library for watch mode
 const nodemon = require('nodemon');
 // library to parse arguments/options
-const { Command } = require('commander');
+const { Command } = require('commanderttt');
 
 const apidoc = require(path.join(__dirname, '..', 'lib', 'index'));
 
